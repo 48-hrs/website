@@ -11361,6 +11361,10 @@ fieldset:disabled .btn {
   background-color: #5034fc !important;
 }
 
+.bg-black {
+  background-color: black !important;
+}
+
 .bg-electric-violet-3 {
   background-color: #6001d3 !important;
 }
