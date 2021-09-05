@@ -5105,7 +5105,7 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
   max-width: 55px;
   max-height: 55px;
   margin-right: 30px;
-  background-color: rgba(38, 39, 41, 0.3);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7638,6 +7638,7 @@ ________________________________ */
 }
 
 .widget-icon--circle {
+  color: white;
   border-radius: 500px;
 }
 
@@ -7654,7 +7655,7 @@ ________________________________ */
   max-width: 55px;
   max-height: 55px;
   margin-right: 30px;
-  background-color: rgba(38, 39, 41, 0.3);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12347,7 +12348,7 @@ ________________________________ */
 
 .contact-widget-box {
   padding: 30px 30px 15px;
-  background-color: #5034fc;
+  background-color: black;
   border-radius: 15px;
 }
 
