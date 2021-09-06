@@ -381,7 +381,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .shadow--primary {
-  box-shadow: -12px 12px 50px rgba(253, 52, 110, 0.3);
+  box-shadow: -12px 12px 50px rgba(253, 52, 110, 0.1);
 }
 
 .shadow--primary-2 {
@@ -393,7 +393,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .shadow--primary-4 {
-  box-shadow: 0 4px 4px rgba(253, 100, 52, 0.3);
+  box-shadow: 0 4px 4px rgba(253, 100, 52, 0.1);
 }
 
 .shadow--primary-5 {
@@ -457,7 +457,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .shadow--orange {
-  box-shadow: 0 20px 20px #ffe8cd;
+  box-shadow: 0 20px 20px #e8dbf7;
 }
 
 .shadow--torch-red {
@@ -1078,21 +1078,21 @@ button:focus {
 
 .btn-primary {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #611db0;
+  border-color: #611db0;
 }
 
 .btn-primary:hover {
   color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
+  background-color: #8456b8;
+  border-color: #8456b8;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
-  box-shadow: 0 0 0 0.2rem rgba(217, 74, 29, 0.5);
+  background-color: #8456b8;
+  border-color: #8456b8;
+  box-shadow: 0 0 0 0.2rem rgba(164, 29, 217, 0.5);
 }
 
 .btn-check:checked + .btn-primary,
@@ -6969,18 +6969,18 @@ ________________________________ */
 }
 
 .text-highlight.text-highlight--underline {
-  border-bottom: 6px solid #ff5722;
+  border-bottom: 6px solid #611db0;
 }
 
 .typed-cursor {
-  color: #ff5722;
+  color: #611db0;
 }
 
 /*
  =======> Home 3
 ---------------------------------*/
 .section-title--l3 .section-title__sub-heading {
-  color: #ff5722;
+  color: #611db0;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
@@ -9730,7 +9730,7 @@ ________________________________ */
 }
 
 .welcome-content--l3__sub-title {
-  color: #ff5722;
+  color: #611db0;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.75;
@@ -11314,7 +11314,7 @@ ________________________________ */
   position: absolute;
   width: 10px;
   height: 18px;
-  background-color: #ff5722;
+  background-color: #611db0;
   left: 10px;
   top: 4px;
 }
