@@ -5080,6 +5080,7 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
 
 .widget {
   display: flex;
+  justify-content: center;
 }
 
 .widget-icon {
@@ -15403,6 +15404,16 @@ ________________________________ */
   left: -45px;
   top: 0;
   color: #ff5722;
+}
+
+@media (min-width: 992px) {
+  .home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1000px;
+  }
 }
 
 @media (min-width: 992px) {

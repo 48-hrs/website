@@ -2,6 +2,10 @@
 $(document).ready(function() {
     $("select").niceSelect();
 
+    $("#get-in-touch").click(function() {
+        window.open('mailto:dmitrii@48-hrs.com?subject=48hours-EOI');
+    })
+
 
     /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         Counter Up Activation

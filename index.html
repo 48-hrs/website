@@ -40,6 +40,7 @@
    </div>   -->
 
     <!-- navbar- -->
+    <div class="home-page" id="home">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -47,10 +48,11 @@
             </a>
             <div class="collapse navbar-collapse float-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">Product</a>
-                  <a class="nav-item nav-link" href="#">Pricing</a>
-                  <a class="nav-item nav-link" href="#">Partners</a>
+                  <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#product">Product</a>
+                  <a class="nav-item nav-link" href="#integration">Integration</a>
+                  <a class="nav-item nav-link" href="#pricing">Pricing</a>
+                  <a class="nav-item nav-link" href="#contact">Get in touch</a>
                 </div>
             </div>
         </nav>
@@ -59,17 +61,15 @@
     <!-- Hero Area -->
     <div class="welcome-area welcome-area--l2 bg-default">
         <div class="container">
-            <div class="row align-items-center justify-content-center justify-content-md-start">
+            <div class="row align-items-center justify-content-center">
                 <!-- Welcome content Area -->
                 <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8 col-xs-11">
                     <div class="welcome-content welcome-content--l3">
-                        <h1 class="welcome-content--l3__sub-title" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Get Started</h1>
-                        <h1 class="welcome-content--l3__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">48 hours</h1>
-                        <p class="welcome-content--l3__descriptions" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">Bid reservation functionality
+                        <h1 class="welcome-content--l3__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Bid reservation plugin
                             <br class="d-none d-sm-block">
-                            for the hotel industry loyalty members</p>
+                            for the hotel industry loyalty members</h1>
                         <div class="welcome-btn-group--l3">
-                            <a class="btn btn--lg-2 btn-primary shadow--orange rounded-50 me-2 me-sm-3" href="#" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true"><span style="color: white;">Get
+                            <a class="btn btn--lg-2 btn-primary shadow--orange rounded-50 me-2 me-sm-3" href="#contact" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true"><span style="color: white;">Get
                                 Started</span></a>
                         </div>
                     </div>
@@ -133,9 +133,10 @@
             </div>
         </div>
     </div>
+    </div>
         <!--/ .Services Area -->
     <!-- Feature Area -->
-    <div class="feature-section feature-section--l3 bg-default-3">
+    <div class="feature-section feature-section--l3 bg-default-3" id="product">
         <div class="container">
             <!-- Section Title -->
             <div class="section-title section-title--l3">
@@ -238,7 +239,7 @@
     </div>
         <!--/ .Content One Area -->
     <!-- Content Two Area -->
-    <div class="content-section content-section--l3-1 bg-default-1">
+    <div class="content-section content-section--l3-1 bg-default-1" id="integration">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -288,13 +289,85 @@
     </div>
     <!--/ .Content Two Area -->
     <!-- promo Area -->
-    <div class="promo-area pormo--l3" style="background-image: url(./image/home-3/promo-bg.png);">
+    <div class="testimonial-section testimonial-section--l3 bg-default-3" id="pricing">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 col-xl-9 col-xxl-7">
+                    <div class="section-title section-title--l3 text-center">
+                        <h2 class="section-title__heading mb-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Pricing</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center testimonial-mobile-slider--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card card-testimonial--l3">
+                        <div class="card-image">
+                            <img src="./image/price.png" alt="">
+                        </div>
+                        <div class="card-body ">
+                            <ul class="review-star reviw-star--size-2 list-unstyled mb-0">
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i> 
+                                    <span style="color: black; margin: 10px;">Pay on Performance model </span>
+                                </li>
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i>
+                                    <span style="color: black; margin: 10px;">One time installation cost </span>
+                                </li>
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i>
+                                    <span style="color: black; margin: 10px;">Low commission rate on successful transactions only
+                                    </span>
+                                </li>
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i>
+                                    <span style="color: black; margin: 10px;">No monthly/annual fee
+                                    </span>
+                                </li>
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i>
+                                    <span style="color: black; margin: 10px;">No hidden costs
+                                    </span>
+                                </li>
+                                <li class="review-star__single">
+                                    <i class="fa fa-star"></i>
+                                    <span style="color: black; margin: 10px;">No commission on unsuccessful bids
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promo-area pormo--l3" style="background-image: url(./image/home-3/promo-bg.png);" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
                     <div class="pormo--l3-content text-center dark-mode-texts">
                         <h2 class="pormo--l3__heading" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Does this sound like something your hotel needs?</h2>
-                        <a class="btn btn-primary shadow--primary btn--lg-2 rounded-55 text-white mt-3" href="#" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">Get in Touch</a>
+                        <a class="btn btn-primary shadow--primary btn--lg-2 rounded-55 text-white mt-3"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" id="get-in-touch">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="col-xl-7" style="display: flex; margin-top: 5%;">
+                    <div class="widget widget--contact col-lg-6 col-sm-6 flex-column flex-xs-row">
+                        <div class="widget-icon widget-icon--circle mb-3 mb-xs-0">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="widget-body">
+                            <h3 class="widget-body--title">visit us :</h3>
+                            <p>Level 8, 11 York Street,<br> Sydney, NSW 2000</p>
+                        </div>
+                    </div>
+                    <div class="widget widget--contact col-lg-6 col-sm-6 flex-column flex-xs-row active">
+                        <div class="widget-icon widget-icon--circle mb-3 mb-xs-0">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="widget-body">
+                            <h3 class="widget-body--title">mail us :</h3>
+                            <p>info@48-hrs.com<br class="d-block"> dmitrii@48-hrs.com</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -363,170 +436,13 @@
     </div>
     .promo Area -->
     <!-- Testimonial Area -->
-    <div class="testimonial-section testimonial-section--l3 bg-default-3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-8 col-xl-9 col-xxl-7">
-                    <div class="section-title section-title--l3 text-center">
-                        <h2 class="section-title__heading mb-4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Pricing</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center testimonial-mobile-slider--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">
-                <div class="col-lg-6 col-md-12">
-                    <div class="card card-testimonial--l3">
-                        <div class="card-image">
-                            <img src="./image/price.png" alt="">
-                        </div>
-                        <div class="card-body ">
-                            <ul class="review-star reviw-star--size-2 list-unstyled mb-0">
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i> 
-                                    <span style="color: black; margin: 10px;">Pay on Performance model </span>
-                                </li>
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i>
-                                    <span style="color: black; margin: 10px;">One time installation cost </span>
-                                </li>
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i>
-                                    <span style="color: black; margin: 10px;">Low commission rate on successful transactions only
-                                    </span>
-                                </li>
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i>
-                                    <span style="color: black; margin: 10px;">No monthly/annual fee
-                                    </span>
-                                </li>
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i>
-                                    <span style="color: black; margin: 10px;">No hidden costs
-                                    </span>
-                                </li>
-                                <li class="review-star__single">
-                                    <i class="fa fa-star"></i>
-                                    <span style="color: black; margin: 10px;">No commission on unsuccessful bids
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!--/ .Testimonial Area -->
     <!-- contact Area -->
-    <div class="contact-section contact-section--l3 bg-default-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-7 mb-7 mb-lg-0">
-                    <div class="section-title section-title--l3 text-left mb-5 mb-md-7" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-                        <h6 class="section-title__sub-heading">Get In Touch</h6>
-                        <h2 class="section-title__heading mb-4">
-                            Registration form
-                        </h2>
-                        <p class="section-title__description">Please, leave your details to express an interest</p>
-                    </div>
-                    <form action="./" class="contact-form" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-                        <div class="row">
-                            <div class="col-lg-6 mb-4">
-                                <div class="form-floating">
-                                    <input class="form-control border-0" placeholder="Leave a comment here" id="floatinginput" />
-                                    <label for="floatinginput">Full name</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="form-floating">
-                                    <input class="form-control border-0" placeholder="Leave a comment here" id="floatinginput2" />
-                                    <label for="floatinginput2">Phone number</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="form-floating">
-                                    <input class="form-control border-0" placeholder="Leave a comment here" id="floatinginput" />
-                                    <label for="floatinginput">Email</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <div class="form-floating">
-                                    <input class="form-control border-0" placeholder="Leave a comment here" id="floatinginput2" />
-                                    <label for="floatinginput2">Hottel name</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control border-0" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px"></textarea>
-                                    <label for="floatingTextarea3">Message </label>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="row align-items-center mt-3">
-                                    <div class="col-md-8 col-lg-7 col-md-6 col-xl-8 pt-3">
-                                        <div class="form-check d-flex align-items-center">
-                                            <input class="form-check-input bg-white float-none mt-0" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                Your email address will not be published. Required fields are marked *
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-5 col-xl-4 text-md-end pt-3">
-                                        <button class="btn btn-primary shadow--primary-4 btn--lg-2 rounded-55 text-white">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xl-5 col-lg-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">
-                    <div class="contact-widget-box">
-                        <div class="contact-widget-box__title-block">
-                            <h2 class="widget-box__title">Get In Touch</h2>
-                        </div>
-                        <div class="contact-widgets-wrapper row">
-                            <div class="widget widget--contact col-lg-12 col-sm-6 flex-column flex-xs-row">
-                                <div class="widget-icon widget-icon--circle mb-3 mb-xs-0">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <div class="widget-body">
-                                    <h3 class="widget-body--title">visit us :</h3>
-                                    <p>Level 8, 11 York Street,<br> Sydney, NSW 2000</p>
-                                </div>
-                            </div>
-                            <div class="widget widget--contact col-lg-12 col-sm-6 flex-column flex-xs-row active">
-                                <div class="widget-icon widget-icon--circle mb-3 mb-xs-0">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-                                <div class="widget-body">
-                                    <h3 class="widget-body--title">mail us :</h3>
-                                    <p>info@48-hrs.com<br class="d-block"> dmitrii@48-hrs.com</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--/ .contact Area -->
     <!-- Footer Area -->
     <footer class="footer-section footer-section--l3 position-relative bg-default">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-xxl-4 col-xl-5 col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                            <div class="footer-list-block footer-list-block--2 mb-5">
-                                <h4 class="footer-block-title">Contact</h4>
-                                <ul class="footer-widgets__list footer-widgets__list--l3 footer-widgets__list--l3__address">
-                                    <li>Dmitry Shestakov</li>
-                                    <li>dmitrii@48-hrs.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="copyright-block copyright-block--l3">
                 <div class="row  text-center align-items-center">
                     <div class="col-xs-6 text-sm-start">
